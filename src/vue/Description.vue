@@ -1,7 +1,7 @@
 <template>
     <div class="panel">
         <p>
-            Vanity-ETH is an open source tool using your web browser to generate Ethereum vanity addresses.<br>
+            Vanity-L1 EVM is an open source tool using your web browser to generate genesisL1 EVM vanity addresses.<br>
             Enter a short prefix/suffix of your choice, and click ‘generate’ to start.
         </p>
         <div class="shortcut">
@@ -29,27 +29,27 @@
         <p>
             As explained above, everything is computed only in your browser. Nothing ever leaves your machine, or even
             your browser tab. There is no database, no server-side code. Everything vanishes when you close your tab.<br><br>
-            <b>Vanity-ETH cannot and will never store your private key</b>, and if you don't trust it, you have 3 ways to ensure
+            <b>Vanity-L1 cannot and will never store your private key</b>, and if you don't trust it, you have 3 ways to ensure
             your key remains private:<br>
             &nbsp;-&nbsp;Once the web page is loaded, you can turn off the internet and continue playing, it will work seamlessly<br>
-            &nbsp;-&nbsp;You can also download the latest build of Vanity-ETH
+            &nbsp;-&nbsp;You can also download the latest build of Vanity-L1
             <a href="https://git.io/veth-dl" target="_blank">here</a> and use it on a completely offline computer<br>
             &nbsp;-&nbsp;The code is 100% open source and available on
             <a href="https://github.com/bokub/vanity-eth" target="_blank">Github</a>. You can review it as much as you want before using it<br>
             <br>
-            Vanity-ETH uses a cryptographically secure pseudorandom number generator (CSPRNG) to generate
+            Vanity-L1 uses a cryptographically secure pseudorandom number generator (CSPRNG) to generate
             Ethereum addresses.<br>
             The keystore file is encrypted with a AES-128-CTR cipher using the BKDF2-SHA256 derivation function with 65536 hashing rounds.
         </p>
         <h2>Performance</h2>
         <p>
-            For some reason, the performance of Vanity-ETH can vary a lot from a browser to another.
+            For some reason, the performance of Vanity-L1 can vary a lot from a browser to another.
             Currently, Chrome provides the best results.<br>
-            Using Vanity-ETH on your phone or tablet will work, but don't expect to reach the speed of a good old computer.
+            Using Vanity-L1 on your phone or tablet will work, but don't expect to reach the speed of a good old computer.
         </p>
         <h2>Compatibility</h2>
         <p>
-            Any address generated with Vanity-ETH is ERC-20 compatible, which means you can use it for an ICO, an
+            Any address generated with Vanity-L1 is ERC-20 compatible, which means you can use it for an ICO, an
             airdrop, or just to withdraw your funds from an exchange.<br>
             The keystore file is 100% compatible with MyEtherWallet, MetaMask, Mist, and geth.
         </p>
